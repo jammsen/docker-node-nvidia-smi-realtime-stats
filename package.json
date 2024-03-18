@@ -1,0 +1,23 @@
+{
+  "name": "nvidia-smi-realtime-stats",
+  "version": "1.0.0",
+  "description": "This package is a wrapper around the nvidia-smi command to export the results via socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nvidia-smi",
+    "socket.io",
+    "realtime",
+    "stats",
+    "gpu"
+  ],
+  "author": "Sebastian Schmidt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "socket.io": "^4.7.5"
+  }
+}
