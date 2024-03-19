@@ -5,13 +5,13 @@ services:
     image: node:21.7-bookworm
     restart: unless-stopped
     environment:
-      PORT: 2080
+      PORT: 2090
     build:
       context: .
     user: node
     working_dir: /home/node/app
     ports:
-      - 2080:2080
+      - 2090:2090
     command: "npm start"
     deploy:
       resources:
